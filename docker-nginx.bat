@@ -1,0 +1,1 @@
+docker run --name php-nginx -p 8080:80 -v /d/Projetos/docker/docker-api-php-debug:/usr/share/nginx/html:ro -d nginx
